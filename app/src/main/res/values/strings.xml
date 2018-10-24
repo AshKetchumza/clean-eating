@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Clean Eating</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="got_it">GOT IT</string>
+    <string name="welcome">CLEAN EATING</string>
+    <string name="slide1_desc">Get suggestions for the dankest healthy food, and create a personalized menu for our week...</string>
+    <string name="slide1_title">CLEAN\nEATING</string>
+    <string name="slide2_desc">Healthy smoothies and shit, all natural, omnomnoms...</string>
+    <string name="slide2_title">Food by category</string>
+    <string name="slide3_desc">Badass breakfast recipes, for dank ass food to keep you kwaai...</string>
+    <string name="slide3_title">Plan your week</string>
+    <string name="slide4_desc">Create your own personalized menu for all the dankness, ahhhh yeah...</string>
+    <string name="slide4_title">Super simple</string>
+
+    <string name="get_started">Get Started</string>
+    <string name="check_it_out">Check It Out</string>
+
+</resources>
