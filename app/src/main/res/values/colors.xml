@@ -19,4 +19,7 @@
     <!-- blank colour -->
     <color name="clear"></color>
 
+    <!-- inputs -->
+    <color name="input">#ffffff</color>
+
 </resources>

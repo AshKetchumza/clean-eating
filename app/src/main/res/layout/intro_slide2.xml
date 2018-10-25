@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/intro_slider2">
+    android:background="@drawable/intro_slide1">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -14,16 +14,17 @@
         android:gravity="center_horizontal"
         android:orientation="vertical">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:paddingLeft="@dimen/desc_padding"
-            android:paddingRight="@dimen/desc_padding"
-            android:text="@string/slide2_desc"
-            android:textAlignment="center"
-            android:textColor="@android:color/white"
-            android:textSize="@dimen/slide_desc" />
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:paddingLeft="@dimen/desc_padding"-->
+            <!--android:paddingRight="@dimen/desc_padding"-->
+            <!--android:text="@string/slide2_desc"-->
+            <!--android:textAlignment="center"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:textSize="@dimen/slide_desc"-->
+            <!--android:fontFamily="@font/OratorStd"/>-->
 
     </LinearLayout>
 
@@ -33,23 +34,13 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="59dp"
+        android:layout_marginTop="90dp"
         android:padding="10dp"
-        android:text="@string/slide2_title"
+        android:text="@string/slide2_desc"
         android:textAlignment="center"
-        android:textColor="@android:color/white"
-        android:textSize="@dimen/slide_title"
-        android:textStyle="bold" />
-
-    <Button
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="79dp"
-        android:background="@android:color/white"
-        android:alpha="0.7"
-        android:text="@string/get_started" />
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/slide_desc"
+        android:fontFamily="@font/orator" />
 
 </RelativeLayout>
 

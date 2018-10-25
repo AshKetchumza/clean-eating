@@ -24,17 +24,17 @@ public class WelcomeActivity extends AppCompatActivity implements View.OnClickLi
     private LinearLayout dotsLayout;
     private TextView[] dots;
 
-    private int[] layouts = new int[]{R.layout.intro_slide1, R.layout.intro_slide2, R.layout.intro_slide3, R.layout.intro_slide4};
+    private int[] layouts = new int[]{R.layout.intro_slide1, R.layout.intro_slide2, R.layout.intro_slide3};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         // Checking for first time launch - before calling setContentView()
-        if (!Globals.shouldShowSlider()) {
-            launchHomeScreen();
-            finish();
-        }
+//        if (!Globals.shouldShowSlider()) {
+//            launchHomeScreen();
+//            finish();
+//        }
 
         // Making notification bar transparent
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
@@ -54,6 +54,7 @@ public class WelcomeActivity extends AppCompatActivity implements View.OnClickLi
         setBtnClickListener(R.id.btn_got_it);
         setBtnClickListener(R.id.btn_next);
         setBtnClickListener(R.id.btn_skip);
+        setBtnClickListener(R.id.btn_get_started);
 
         // adding bottom dots
         addBottomDots();
@@ -124,6 +125,7 @@ public class WelcomeActivity extends AppCompatActivity implements View.OnClickLi
             showHideView(R.id.btn_next, isLastPage ? View.GONE : View.VISIBLE);
             showHideView(R.id.btn_skip, isLastPage ? View.GONE : View.VISIBLE);
             showHideView(R.id.btn_got_it, isLastPage ? View.VISIBLE : View.GONE);
+            showHideView(R.id.btn_get_started, isLastPage ? View.VISIBLE : View.GONE);
 
             prevPos = position;
         }
@@ -141,11 +143,16 @@ public class WelcomeActivity extends AppCompatActivity implements View.OnClickLi
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btn_skip:
+                launchHomeScreen();
+                break;
             case R.id.btn_got_it:
                 launchHomeScreen();
                 break;
             case R.id.btn_next:
                 showNextSlide();
+                break;
+            case R.id.btn_get_started:
+                launchHomeScreen();
                 break;
         }
     }

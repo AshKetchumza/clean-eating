@@ -5,16 +5,17 @@
     <string name="skip">SKIP</string>
     <string name="got_it">GOT IT</string>
     <string name="welcome">CLEAN EATING</string>
-    <string name="slide1_desc">Get suggestions for the dankest healthy food, and create a personalized menu for our week...</string>
+    <string name="slide1_desc">Healthy meal ideas and personalized menus, right at your finger tips.</string>
     <string name="slide1_title">CLEAN\nEATING</string>
-    <string name="slide2_desc">Healthy smoothies and shit, all natural, omnomnoms...</string>
+    <string name="slide2_desc">Various different food categories to choose from to suit all your hunger cravings.</string>
     <string name="slide2_title">Food by category</string>
-    <string name="slide3_desc">Badass breakfast recipes, for dank ass food to keep you kwaai...</string>
+    <string name="slide3_desc">Healthy recipes that \nare easy to prepare and cook\n in the comfort of your own home.</string>
     <string name="slide3_title">Plan your week</string>
     <string name="slide4_desc">Create your own personalized menu for all the dankness, ahhhh yeah...</string>
     <string name="slide4_title">Super simple</string>
 
     <string name="get_started">Get Started</string>
+    <string name="tcs_and_cs">You agree to Clean Eatings \nUser Agreement, Privacy Policy, \nand Cookie Policy.</string>
     <string name="check_it_out">Check It Out</string>
 
 </resources>

@@ -35,20 +35,10 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="57dp"
         android:padding="10dp"
-        android:text="@string/slide4_title"
+        android:text="@string/welcome"
         android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textSize="@dimen/slide_title"
         android:textStyle="bold" />
-
-    <Button
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="79dp"
-        android:background="@android:color/white"
-        android:alpha="0.7"
-        android:text="@string/get_started" />
 
 </RelativeLayout>

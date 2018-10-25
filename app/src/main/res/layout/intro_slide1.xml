@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/intro_slide1">
+    android:background="@drawable/intro_slider4">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -22,8 +22,9 @@
             android:paddingRight="@dimen/desc_padding"
             android:text="@string/slide1_desc"
             android:textAlignment="center"
-            android:textColor="@android:color/black"
-            android:textSize="@dimen/slide_desc" />
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/slide_desc"
+            android:fontFamily="@font/orator"/>
 
     </LinearLayout>
 
@@ -36,7 +37,7 @@
         android:layout_marginTop="60dp"
         android:text="@string/slide1_title"
         android:textAlignment="center"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/white"
         android:textSize="@dimen/slide_title"
-        android:textStyle="bold" />
+        android:fontFamily="@font/orator"/>
 </RelativeLayout>
