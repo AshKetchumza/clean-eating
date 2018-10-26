@@ -13,9 +13,16 @@
     <string name="slide3_title">Plan your week</string>
     <string name="slide4_desc">Create your own personalized menu for all the dankness, ahhhh yeah...</string>
     <string name="slide4_title">Super simple</string>
-
+    <string name="home_title">How\'s your healthy\n eating going?</string>
     <string name="get_started">Get Started</string>
     <string name="tcs_and_cs">You agree to Clean Eatings \nUser Agreement, Privacy Policy, \nand Cookie Policy.</string>
     <string name="check_it_out">Check It Out</string>
+    <string name="title_activity_main_menu">Clean Eating</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Kim McCarroll</string>
+    <string name="nav_header_subtitle">kimberly.mccarroll@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
 
 </resources>

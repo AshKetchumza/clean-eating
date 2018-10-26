@@ -2,6 +2,7 @@ package com.ashleysanders.cleaneating;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -15,6 +16,7 @@ public class SigninActivity extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.signin_activity, container, false);
         final Button forgot_password = (Button) rootView.findViewById(R.id.forgot_password);
+        final Button sign_in = (Button) rootView.findViewById(R.id.signin);
 
         forgot_password.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -39,7 +41,22 @@ public class SigninActivity extends Fragment {
 
             }// end onClick
         });
+
+        sign_in.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                goToAttract(view);
+
+            }// end onClick
+        });
         return rootView;
+    }
+
+    public void goToAttract(View v)
+    {
+        Intent intent = new Intent(getActivity(), MainMenuActivity.class);
+        startActivity(intent);
     }
 
 }

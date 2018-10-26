@@ -85,6 +85,12 @@ public class WelcomeActivity extends AppCompatActivity implements View.OnClickLi
         finish();
     }
 
+    public void launchMainMenuScreen() {
+        Globals.saveFirstTimeLaunch(false);
+        startActivity(new Intent(WelcomeActivity.this, MainActivity.class));
+        finish();
+    }
+
     private void addBottomDots() {
         if ((dotsLayout == null) || (layouts == null))
             return;
